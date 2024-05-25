@@ -1,0 +1,31 @@
+# Create a Repository
+
+Create a new local repository                      % git init [project name]
+Clone a repository                                 % git clone git_url
+Clone a repository into a specified directory      % git clone git_url my_directory
+
+
+
+# Make a change
+
+Show modified files in working directory, staged for your next commit      % git status
+Stages the files, ready for commit                                         % git add [file]
+Stage all changed files, ready for commit                                  % git add .
+Commit all staged files to versioned history                               % git commit -m "commit message"
+Commit all your tracked files to versioned history                         % git commit -am "commit message"
+Discard changes in working directory which is not staged                   % git restore [file]
+Unstage a stagged file or file which is staged                             % git restore --staged [file]
+Unstages file, keeping the file changes                                    % git reset [file]
+Revert everything to the last commit                                       % git reset --hard
+Diff of what is changed but not staged                                     % git diff
+Diff if what is staged but not yet commited                                % git diff --staged
+Apply any commits of current branch ahead of specified one                 % gir rebase [branch]
+
+
+
+# Configaration
+
+Set the name what will be attached to your commits and tags            % git config --global user.name "name"
+Set an eamil address that will be attached to your commits and tags    % git config --global usre.email "eamil"
+Enable some colorization of Git output                                 % git config --global color.ui auto
+Edit the global  configaration file in a text editor                   % git cinfig --global --edit

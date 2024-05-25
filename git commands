@@ -1,8 +1,0 @@
-git clone - command is used to create a copy of a Git repository.
-git status - command in Git is used to display the current status of your working directory and the Git repository.
-git push - command in Git is used to upload your local repository's commits and associated branches to a remote repository.
-git pull - command in Git is used to update your local repository with changes from a remote repository.
-git remote - command in Git is used to manage remote repositories associated with your local Git repository.
-git fetch - command in Git is used to update your local repository with changes from a remote repository.
-git merge - command in Git is used to combine changes from one branch into another.
-git revert - command in Git is used to create a new commit that undoes the changes made by a previous commit.
