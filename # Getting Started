@@ -29,3 +29,10 @@ Set the name what will be attached to your commits and tags            % git con
 Set an eamil address that will be attached to your commits and tags    % git config --global usre.email "eamil"
 Enable some colorization of Git output                                 % git config --global color.ui auto
 Edit the global  configaration file in a text editor                   % git cinfig --global --edit
+
+
+
+# Working with Branches
+
+List all local branches                        % git branch
+List all branches, local and remote            % gir branch -av
