@@ -34,5 +34,64 @@ Edit the global  configaration file in a text editor                   % git cin
 
 # Working with Branches
 
-List all local branches                        % git branch
-List all branches, local and remote            % gir branch -av
+List all local branches                                % git branch
+List all branches, local and remote                    % gir branch -av
+Switch to my_branch, and update working directory      % git checkout my_branch
+Create a new branch called new_branch                  % git checkout -b new_branch
+Delete the branch called my_branch                     % git branch -d my_branch
+Merge branchA into branchB                             % git checkout branchB    % git merge branchA
+Tag the current commit                                 % git tag my_tag
+
+
+
+# Observe your Repository
+
+Show the commit history for the currently active branch            % git log
+Show the commits on beanchA that are not on branchB                % git log branchB..branchA
+Show the commits that changed file, even across renames            % git log --follow [file]
+Show the diff of what is in branchA that is not in branchB         % git diff branchB...branchA
+Show any object in Git in human-readable format                    % git show [SHA]
+
+
+
+# Synchronize
+
+Fetch down all the branches from that Git remote                            % git fetch [alias]
+Merge a remote branch into your current branch to bring it up to date       % git merge [alisa]/[branch]
+                                                                                # No fast-forward
+                                                                            % git merge --no-ff [alias]/[branch]
+                                                                                # Only fast-forward
+                                                                            % git merge --ff-only [alias]/[branch]
+Transmit local branch commits to the remote repository branch               % git push [alias] [branch]
+Fetch and merge any commits from the tracking remote branch                 % git pull
+Merge just one specific commit from another branch to your current branch   % git cherry-pick [commit_id]
+
+
+
+
+# Remote
+
+Add a git URL as an alias                                      % git remote add [alias] [url]
+Show the names of the remote repositories you've set up        % git remote
+Show the names and URLs of the remote repositories             % git remote -v
+Remove a remote repository                                     % git remote rm [remote repo name]
+Change the URL of the git repo                                 % git remote set-url origin [git_url]
+
+
+
+
+# Temporary Commits
+
+Save modified and staged change                % git status
+List stack-order of stashed file changes       % git stash list
+Write working from top of stash stack          % git stash pop
+Discard the change from top of stash stack     % git stash drop
+
+
+
+
+# Tracking path Changes
+
+Delete the file from project and stage the removal for commit        % git rm [file]
+Change an existing file path and stage the move                      % git mv [existing-path] [new-path]
+Show all commit logs with indication of any paths that moved         % git log --stat -M
