@@ -12,3 +12,11 @@ Search change by content                      % git log -S'<a term in the source
 Show changes over time for specific file      % git lop -p <file_name>
 Print out a cool visualization of your log    % git log --pretty=oneline --graph --decorate --all
 
+
+# Branch
+
+List all branches and their upstreams              % git branch -vv
+Quickly switch to the previous branch              % git checkout -
+Get only remote branches                           % git branch -r
+
+
