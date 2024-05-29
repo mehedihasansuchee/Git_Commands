@@ -3,3 +3,9 @@
 Renamed to new_name            % git branch -m <new_name>
 Push and reset                 % git push origin -u <new_name>
 Delete remote branch           % git push origin --delete <old>
+
+
+
+# Log
+
+Search change by content      % git log -S'<a term in the source'
