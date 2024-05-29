@@ -8,4 +8,7 @@ Delete remote branch           % git push origin --delete <old>
 
 # Log
 
-Search change by content      % git log -S'<a term in the source'
+Search change by content                      % git log -S'<a term in the source'
+Show changes over time for specific file      % git lop -p <file_name>
+Print out a cool visualization of your log    % git log --pretty=oneline --graph --decorate --all
+
