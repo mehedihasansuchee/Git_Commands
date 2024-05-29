@@ -18,5 +18,5 @@ Print out a cool visualization of your log    % git log --pretty=oneline --graph
 List all branches and their upstreams              % git branch -vv
 Quickly switch to the previous branch              % git checkout -
 Get only remote branches                           % git branch -r
-
+Checkout a single file from another branch         % git checkout <branch> -- <file>
 
