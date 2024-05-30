@@ -20,3 +20,13 @@ Quickly switch to the previous branch              % git checkout -
 Get only remote branches                           % git branch -r
 Checkout a single file from another branch         % git checkout <branch> -- <file>
 
+
+# Rewriting history
+
+Rewrite last commit message          $ git commit --amend -m "new message"
+
+
+
+# Git Aliases
+
+  % git config --global alias.co checkout
