@@ -32,4 +32,4 @@ Rewrite last commit message          $ git commit --amend -m "new message"
   % git config --global alias.co checkout
   % git config --global alias.br branch
   % git cinfig --global alias.ci commit
-  % git config --global alias.st status
+  % git config --global alias.st statu
