@@ -80,7 +80,7 @@ Change the URL of the git repo                                 % git remote set-
 
 
 
-# Temporary Commit
+# Temporary Commits
 
 Save modified and staged change                % git status
 List stack-order of stashed file changes       % git stash list
