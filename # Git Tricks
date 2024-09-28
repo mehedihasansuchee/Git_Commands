@@ -23,7 +23,7 @@ Checkout a single file from another branch         % git checkout <branch> -- <f
 
 # Rewriting history
 
-Rewrite last commit message          $ git commit --amend -m "new message
+Rewrite last commit message          $ git commit --amend -m "new message"
 
 
 
